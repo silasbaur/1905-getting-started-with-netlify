@@ -13,11 +13,12 @@
   <body>
     <header class="header"><h1 class="header-title">#schmonz</h1></header>
     <div class="container">
-      <form action="" method="POST" data-netlify="true" name="contact">
+      <form action="" method="POST" data-netlify="true" name="contact" data-netlify-recaptcha="true">
         <div>
           <label for="name">name</label>
           <input type="text"></input>
         </div>
+        <div data-netlify-recaptcha="true"></div>
         <div>
           <button type="submit">Send</button>
         </div>
